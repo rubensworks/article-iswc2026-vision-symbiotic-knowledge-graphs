@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title property="foaf:name schema:name">Symbiotic Knowledge Graphs:&lt;br&gt;A Vision for Semantic Brain Interfaces</title>
+  <link rel="stylesheet" media="screen" href="styles/screen.css" />
+  <link rel="stylesheet" media="print"  href="styles/print.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <meta name="citation_title" content="Symbiotic Knowledge Graphs:<br>A Vision for Semantic Brain Interfaces">
+  <meta name="citation_author" content="Ruben Taelman" />
+  
+  <meta name="citation_publication_date" content="2026/07/02" />
+</head>
+
+<body prefix="dctypes: http://purl.org/dc/dcmitype/ pimspace: http://www.w3.org/ns/pim/space# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# lsc: http://linkedscience.org/lsc/ns#" typeof="schema:CreativeWork sioc:Post prov:Entity lsc:Research">
+  <header>
+  <h1 id="symbiotic-knowledge-graphsbra-vision-for-semantic-brain-interfaces">Symbiotic Knowledge Graphs:<br />A Vision for Semantic Brain Interfaces</h1>
+
+  <!--{:#authors}
+- <a id="author-name" rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://www.rubensworks.net/" typeof="foaf:Person schema:Person" resource="https://www.rubensworks.net/#me">Ruben Taelman</a>
+
+{:#affiliations}
+- IDLab, Ghent University – imec, Belgium
+			<br />E-mail: ruben.taelman@ugent.be
+-->
+
+  <section class="context">
+    <p>Workshop at <a href="https://iswc2026.semanticweb.org/#/calls/visionary" rel="as:inReplyTo">ISWC 2026 Call for Visionary Ideas Track Papers</a>, October 25-29 2026</p>
+  </section>
+
+  <section id="abstract" inlist="" rel="schema:hasPart" resource="#abstract">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Abstract</h2>
+      <!-- Context      -->
+      <p>A primary goal of the Semantic Web was to enable autonomous agents to take up tasks on behalf of humans.
+Now, 25 years after this initial vision, this goal has been largely accomplished.
+While these agents can be personal, and associated to specific humans,
+they are still not directly attached to humans.
+In other words, these intelligent agents are external to the human body and brain,
+and they require indirect communication through audio-visual or manual interaction.
+As such, the Semantic Web vision has set out a course to assist the evolution of human knowledge by creating intelligence in external agents,
+while the intelligence of individual humans remains untouched, or is even degrading.
+<!-- Need         -->
+As such, to avoid human intelligence falling behind on artificial intelligence,
+there is a need to <em>augment</em> our human intelligence.
+<!-- Task         -->
+Thanks to the Semantic Web technology stack,
+we already have a foundation to make machines understand data,
+which are often captured in the form of Knowledge Graphs.
+<!-- Object       -->
+In this paper, we argue that parts of this technology stack
+offer a basis to also augment human intelligence through <em>Semantic Brain Interfaces</em>.
+We present an interdisciplinary research roadmap for achieving this vision,
+which spans Augmented Cognition, Cognitive Neuroscience, Brain-computer Interfaces, Cognitive architectures, and Neuro-symbolic AI.
+<!-- Findings     -->
+<!-- Conclusion   -->
+This will enable the existence of <em>Symbiotic Knowledge Graphs</em>,
+which consist of both human knowledge stored in the brain,
+and external knowledge stored on the Web.
+<!-- Perspectives -->
+With this paper,
+we propose a research vision
+where artificial intelligence and human intelligence can co-evolve in a symbiotic manner,
+without one replacing the other.</p>
+
+    </div>
+</section>
+
+</header>
+
+<main>
+  <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Introduction</h2>
+
+      <p class="todo">Write me in a story form.
+Figure showing brain with augmentation and personal query engine with links to KGs (also incoming).
+Talk about use cases and example usages.
+* Start intro with: the year is 2050… Lookup beach boys songs came out around 1950, for intro.
+* gps in brain; you hear that store you are on your way to is closed, and want to reroute to somewhere else that sells your grocerie list. All of this you now know, no need to whip out phone.
+* Friends trip to mars, know if someone has sparenoxygen helmet. Send mindmessage to ask perms to access luggage list, to see if overlap or missing. Just know it, no need to ask. And then asks teslabot of that friend to pack it.
+* Listen in on progress tungsten asyeroid miner. Company that produces gears for your space buggy goes bankrupt. No other comp that directly does it, so lookup graph of companoes that collectively could make, instead of selling materials on marketplace, and contact them.
+* While in freeze sleep on trip, medibot fuxes chip as issues were signaled. Explain system here, and show figure.
+* To qnow: knowing by querying skg. Learned how to do at same age of driving car. With permit</p>
+
+    </div>
+</section>
+
+  <section id="related" inlist="" rel="schema:hasPart" resource="#related">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Related Work</h2>
+
+      <p>After the second world war concluded,
+scientists such as Bush argued that producing scientific knowledge was no longer the primary bottleneck <span class="references">[<a href="#ref-1">1</a>]</span>.
+Instead, the ability to navigate within this rapidly growing body of knowledge would become the new bottleneck.
+He proposed the <em>Memex</em>,
+a conceptual device that would enable books and other forms of data to be stored,
+and links to be placed between pieces of information.
+While this device was never actually built,
+it provided the foundations for hypertext and the World Wide Web <span class="references">[<a href="#ref-2">2</a>]</span>.</p>
+
+      <p>In the 1960’s, computers were not only shrinking, but also becoming more powerful.
+Due to this, Licklider argued <span class="references">[<a href="#ref-3">3</a>]</span> that computers should not just automate calculations,
+but that there should be a cooperative interaction between humans and machines to solve problems.
+Within this, humans would contribute creativity and intuition,
+while computers could provide precise calculations and information management.
+He called this relationship the term <em>man-computer symbiosis</em>,
+where each partner focuses on the task that it performs best.
+He argued that the interface between humans and machines should become as seamless as possible.
+Engelbart took this vision a step further <span class="references">[<a href="#ref-4">4</a>]</span>,
+by arguing that we should not just focus on making computers more intelligent,
+but that humans should become better at understanding and solving complex problems.
+by directy <em>augmenting human cognition</em>.
+He claimed that human cognition emerges from a system he calls <em>H-LAM/T</em>,
+which consists of <em>“Humans using Language, Artifacts, Methodology, in which he is Trained”</em>.
+To increase the widen the bandwidth between humans and machines,
+Engelbart contributed to the introduction of the computer mouse, windowed interfaces, collaborative editing, and more.</p>
+
+      <p>Building upon these ideas, the Semantic Web <span class="references">[<a href="#ref-5">5</a>]</span> vision was introduced
+as a machine-understandable layer on top of the World Wide Web
+in which intelligent agents could act on behalf of humans.
+However, within this vision, intelligence is considered something external,
+which places us in a trajectory where artificial intelligence may exceed human intelligence.
+As such, the Semantic Web vision aligns closer to Licklider’s vision,
+while in this paper we argue the importance of Engelbart’s vision,
+where we should not just focus on increasing artificial intelligence,
+but also use it to increase human intelligence.</p>
+
+      <p class="todo">?Also talk about humans becoming dumber, which we can solve here.</p>
+
+    </div>
+</section>
+
+  <section id="challenges" inlist="" rel="schema:hasPart" resource="#challenges">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Scientific challenges</h2>
+
+      <p class="todo">Write me
+The Semantic Web has been successful at making knowledge interoperable among machines. The next big challenge is making semantic knowledge interoperable with human cognition itself!
+Rq: can brain speak http/rdf?</p>
+
+      <p class="todo">Cite stuff from Augmented Cognition, Cognitive Neuroscience, Brain-computer Interfaces, Cognitive architectures, and Neuro-symbolic AI.
+Mention companies like Neuralink?</p>
+
+    </div>
+</section>
+
+  <section id="conclusions" inlist="" rel="schema:hasPart" resource="#conclusions">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Impact and conclusions</h2>
+
+      <p class="todo">Write me</p>
+
+    </div>
+</section>
+
+  <!--<section >
+<div datatype="rdf:HTML" property="schema:description" markdown="block">
+## Acknowledgements
+{:acknowledgements}
+
+Ruben Taelman is a postdoctoral fellow of the Research Foundation – Flanders (FWO) (1202124N).
+
+</div>
+</section>
+-->
+</main>
+
+<footer><section>
+<h2 id="references">References</h2>
+<dl class="references">
+  <dt id="ref-1">[1]</dt>
+  <dd resource="#bush1945we" typeof="schema:Article">Bush, V., others: As we may think. The atlantic monthly. 176, 101–108 (1945).</dd>
+  <dt id="ref-2">[2]</dt>
+  <dd resource="#berners1989information" typeof="schema:CreativeWork">Berners-Lee, T.J.: Information management: A proposal. (1989).</dd>
+  <dt id="ref-3">[3]</dt>
+  <dd resource="#licklider1960man" typeof="schema:Article">Licklider, J.C.R.: Man-computer symbiosis. IRE transactions on human factors in electronics. 4–11 (1960).</dd>
+  <dt id="ref-4">[4]</dt>
+  <dd resource="#engelbart2023augmenting" typeof="schema:Chapter">Engelbart, D.C.: Augmenting human intellect: A conceptual framework. In: Augmented education in the global age. pp. 13–29. Routledge (2023).</dd>
+  <dt id="ref-5">[5]</dt>
+  <dd resource="#semanticweb" typeof="schema:Article">Berners-Lee, T., Hendler, J., Lassila, O., others: The semantic web. Scientific American. 284, 28–37 (2001).</dd>
+</dl>
+</section>
+</footer>
+
+
+
+</body>
+</html>
