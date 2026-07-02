@@ -19,7 +19,7 @@ which are often captured in the form of Knowledge Graphs.
 In this paper, we argue that parts of this technology stack
 offer a basis to also augment human intelligence through *Semantic Brain Interfaces*.
 We present an interdisciplinary research roadmap for achieving this vision,
-which spans Augmented Cognition, Cognitive Neuroscience, Brain-computer Interfaces, and Neuro-symbolic AI.
+which spans Augmented Cognition, Cognitive Neuroscience, Brain-computer Interfaces, Cognitive architectures, and Neuro-symbolic AI.
 <!-- Findings     -->
 <!-- Conclusion   -->
 This will enable the existence of *Symbiotic Knowledge Graphs*,
