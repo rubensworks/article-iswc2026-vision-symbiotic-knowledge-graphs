@@ -2,7 +2,6 @@
 {:#introduction}
 
 Write me in a story form.
-Figure showing brain with augmentation and personal query engine with links to KGs (also incoming).
 Talk about use cases and example usages.
 * Start intro with: the year is 2050… Lookup beach boys songs came out around 1950, for intro.
 * gps in brain; you hear that store you are on your way to is closed, and want to reroute to somewhere else that sells your grocerie list. All of this you now know, no need to whip out phone.
