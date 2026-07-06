@@ -1,0 +1,252 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usetikzlibrary{arrows.meta}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    >=Latex,
+    x=1cm,
+    y=0.06cm,
+    line cap=round,
+    line join=round,
+    font=\sffamily
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\leftstart{0}
+\def\leftend{6}
+
+\def\rightstart{7.2}
+\def\rightend{15}
+
+\def\ymin{70}
+\def\ymax{220}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Axes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[thick,->] (\leftstart,\ymin) -- (\rightend+0.5,\ymin)
+    node[right]{Time};
+
+\draw[thick,->] (\leftstart,\ymin) -- (\leftstart,\ymax+8)
+    node[above]{Intelligence};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Broken axis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[line width=1pt]
+(6.35,\ymin-4)--(6.55,\ymin+4);
+
+\draw[line width=1pt]
+(6.55,\ymin-4)--(6.75,\ymin+4);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% X labels
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\node[below] at (0,\ymin) {200k BCE};
+\node[below] at (2,\ymin) {100k BCE};
+\node[below] at (4,\ymin) {10k BCE};
+\node[below] at (5.8,\ymin) {1800};
+
+\node[below] at (7.3,\ymin) {1900};
+\node[below] at (8.7,\ymin) {1950};
+\node[below] at (10.1,\ymin) {2000};
+\node[below] at (11.2,\ymin) {\textbf{Now}};
+\node[below] at (14.4,\ymin) {Future};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Human intelligence
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[
+blue,
+very thick
+]
+(0,100)
+
+.. controls (1.5,102) and (2.5,108)
+..
+(4,115)
+
+.. controls (5,120) and (5.8,123)
+..
+(7.3,124)
+
+.. controls (8.5,126) and (9.8,126.3)
+..
+(10.4,126.2)
+
+.. controls (10.8,126.0) and (11.0,125.7)
+..
+(11.2,125.5);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AI
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[
+red,
+very thick
+]
+(8.2,74)
+
+.. controls (9.2,76) and (10.0,88)
+..
+(10.5,108)
+
+.. controls (10.8,116) and (11.0,121)
+..
+(11.2,123);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOW line
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[densely dashed,black]
+(11.2,\ymin)
+--
+(11.2,\ymax);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Future 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[
+blue,
+thick,
+dotted
+]
+(11.2,126)
+..
+controls (12.4,120) and (13.4,108)
+..
+(15,92);
+
+\draw[
+red,
+thick,
+dotted
+]
+(11.2,123)
+..
+controls (12.0,132) and (13.3,155)
+..
+(15,188);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Future 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[
+blue,
+thick,
+dashed
+]
+(11.2,126)
+..
+controls (12.4,132) and (13.7,145)
+..
+(15,160);
+
+\draw[
+red,
+thick,
+dashed
+]
+(11.2,123)
+..
+controls (12.0,132) and (13.3,155)
+..
+(15,188);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Labels
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\node[
+blue,
+anchor=west
+]
+at (3.8,137)
+{Human Intelligence};
+
+\node[
+red,
+anchor=west
+]
+at (10.3,175)
+{Artificial Intelligence};
+
+\node[
+align=center
+]
+at (11.2,223)
+{\textbf{Now}};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Flynn effect
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[->]
+(9.5,140)
+--
+(10.9,128);
+
+\node[
+align=right
+]
+at (9.3,142)
+{\small Reverse Flynn effect};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Future labels
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\node[
+anchor=west,
+align=left,
+blue
+]
+at (13.0,90)
+{\small Future 1\\
+\small AI surpasses HI\\
+\small HI declines};
+
+\node[
+anchor=west,
+align=left,
+blue
+]
+at (13.0,130)
+{\small Future 2\\
+\small AI and HI\\
+\small co-evolve};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Legend
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\draw[blue,very thick] (0.3,214)--(1.2,214);
+\node[anchor=west] at (1.35,214){Human Intelligence (HI)};
+
+\draw[red,very thick] (0.3,206)--(1.2,206);
+\node[anchor=west] at (1.35,206){Artificial Intelligence (AI)};
+
+\draw[black,densely dashed] (0.3,198)--(1.2,198);
+\node[anchor=west] at (1.35,198){Now};
+
+\draw[black,dotted] (0.3,190)--(1.2,190);
+\node[anchor=west] at (1.35,190){Future 1};
+
+\draw[black,dashed] (0.3,182)--(1.2,182);
+\node[anchor=west] at (1.35,182){Future 2};
+
+\end{tikzpicture}
+
+\end{document}
