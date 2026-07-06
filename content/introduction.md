@@ -9,6 +9,11 @@ Talk about use cases and example usages.
 * Listen in on progress tungsten asyeroid miner. Company that produces gears for your space buggy goes bankrupt. No other comp that directly does it, so lookup graph of companoes that collectively could make, instead of selling materials on marketplace, and contact them.
 * While in freeze sleep on trip, medibot fuxes chip as issues were signaled. Explain system here, and show figure.
 * To qnow: knowing by querying skg. Learned how to do at same age of driving car. With permit
+* Think: “get location of swimming pool nearby”.
 {:.todo}
 
 
+Plot on time-intelligence showing ai va humans. Show now and cross point. 2 futures, breaking point. Prefer human int also increasing.
+Right now, it looks as if were going to pass over the torch to anotehr intelligence. Do we want that?
+Cyborgs
+{:.todo}

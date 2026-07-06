@@ -17,7 +17,7 @@ we already have a foundation to make machines understand data,
 which are often captured in the form of Knowledge Graphs.
 <!-- Object       -->
 In this paper, we argue that parts of this technology stack
-offer a basis to also augment human intelligence through *Semantic Brain Interfaces*.
+offer a basis to also augment human intelligence through *Semantic Brain-Computer Interfaces*.
 We present an interdisciplinary research roadmap for achieving this vision,
 which spans Augmented Cognition, Cognitive Neuroscience, Brain-computer Interfaces, Cognitive architectures, and Neuro-symbolic AI.
 <!-- Findings     -->
