@@ -4,7 +4,7 @@
 The Semantic Web vision has successfully enabled making knowledge interoperable among machines, which can aid human objectives.
 Our next big challenge is to make such semantic knowledge interoperable with human cognition itself, to directly augment human intelligence.
 To augment human intelligence, we propose working towards an integration of human and artificial intelligence.
-Concretely, we foresee the creation of *Symbiotic Knowledge Graphs* (SKGs),
+As shown in [](#symbiotic-kg), we foresee the creation of *Symbiotic Knowledge Graphs* (SKGs),
 which consist of the integration of human knowledge stored in the brain, and external knowledge stored on the Web.
 To achieve this, the Semantic Web stack already offers important building blocks,
 such as RDF to represent formal knowledge, and SPARQL to retrieve knowledge.
@@ -12,9 +12,15 @@ On the one hand, this allows humans to directly access external knowledge.
 And on the other hand, this enables external processes or other humans to access knowledge of other humans.
 Furthermore, this provides the basis for human cogniton to make use of symbolic reasoning over this integration.
 
-Figure showing brain with augmentation and personal query engine with links to KGs (also incoming).
-Should include SBCI and SKG.
-{:.todo}
+<figure id="symbiotic-kg">
+<img src="img/symbiotic-kg.svg" alt="A Symbiotic Knowledge Graph">
+<figcaption markdown="block">
+A *Symbiotic Knowledge Graph* (SKG) is the integration of a *Brain-based Knowledge Graph* (BKG) with external Knowledge Graphs.
+For this, a *Semantic Brain-Computer Interface* (SBCI) provides the connection point between the two worlds.
+This enables information to be virtually interlinked across this neural-digital boundary,
+as a foundation for co-evolving human and artificial intelligence.
+</figcaption>
+</figure>
 
 This vision can be positioned within the research field of [Human Cognitive Augmentation](cite:cites neurotechnologieshumancogaug),
 which focuses on using technology to enhance human mental capabilities (e.g. memory, focus, and decision-making).
