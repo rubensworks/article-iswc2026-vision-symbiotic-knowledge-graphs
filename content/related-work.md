@@ -36,6 +36,3 @@ As such, the Semantic Web vision aligns closer to Licklider's vision,
 while in this paper we argue the importance of Engelbart's vision,
 where we should not just focus on increasing artificial intelligence,
 but also use it to increase human intelligence.
-
-?Also talk about humans becoming dumber, which we can solve here.
-{:.todo}

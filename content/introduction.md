@@ -12,8 +12,23 @@ Talk about use cases and example usages.
 * Think: “get location of swimming pool nearby”.
 {:.todo}
 
+The [Human species has seen increases in intelligence for thousands of years](cite:cites humanintelligenceevolution).
+Since just a few decades ago, we started creating artificial forms of intelligence (AI),
+[which are rapidly increasing](cite:cites aiintelligence),
+and [may soon or match or exceed Human Intelligence (HI)](cite:cites aigeneralintelligence).
+At the same time, [the Reverse Flynn effect](cite:cites reverseflynn) shows dropping Human IQ test scores in recent years,
+which some argue indicates a a decline in HI.
+If these two trends continue, we may be evolving towards a future where AI surpasses HI (Future 1),
+which leads to an uncertain future of humanity.
+In this paper, we argue for the need of a course correction (Future 2),
+where HI co-evolves with AI,
+which may be a necessity due to biological evolution being much slower compared to our technological advancement.
+[](#evolution-intelligence) shows an illustration of this HI-AI co-evolution.
 
-Plot on time-intelligence showing ai va humans. Show now and cross point. 2 futures, breaking point. Prefer human int also increasing.
-Right now, it looks as if were going to pass over the torch to anotehr intelligence. Do we want that?
-Cyborgs
-{:.todo}
+<figure id="evolution-intelligence">
+<img src="img/evolution-intelligence.svg" alt="Intelligence Evolution">
+<figcaption markdown="block">
+A simplified illustration of the evolution of Human Intelligence (HI) and Artificial Intelligence (AI) over time,
+together with two possible future directions where HI declines while AI continues to advance (Future 1), or HI and AI co-evolve (Future 2).
+</figcaption>
+</figure>
