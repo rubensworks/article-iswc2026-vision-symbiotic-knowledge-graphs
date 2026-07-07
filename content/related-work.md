@@ -10,10 +10,10 @@ and links to be placed between pieces of information.
 While this device was never actually built,
 it provided the foundations for hypertext and the [World Wide Web](cite:cites berners1989information).
 
-In the 1960's, computers were not only shrinking, but also becoming more powerful.
+In the 1960's, computers were not only shrinking in size, but they were also becoming more powerful.
 Due to this, [Licklider argued](cite:cites licklider1960man) that computers should not just automate calculations,
 but that there should be a cooperative interaction between humans and machines to solve problems.
-Within this, humans would contribute creativity and intuition,
+Within this cooperation, humans would contribute creativity and intuition,
 while computers could provide precise calculations and information management.
 He called this relationship the term *man-computer symbiosis*,
 where each partner focuses on the task that it performs best.
@@ -24,7 +24,7 @@ but that humans should become better at understanding and solving complex proble
 by directy *augmenting human cognition*.
 He claimed that human cognition emerges from a system he calls *H-LAM/T*,
 which consists of *"Humans using Language, Artifacts, Methodology, in which he is Trained"*.
-To increase the widen the bandwidth between humans and machines,
+To increase the cooperation bandwidth between humans and machines,
 Engelbart contributed to the introduction of the computer mouse, windowed interfaces, collaborative editing, and more.
 
 Building upon these ideas, the [Semantic Web](cite:cites semanticweb) vision was introduced

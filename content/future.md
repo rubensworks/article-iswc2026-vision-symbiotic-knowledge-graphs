@@ -7,8 +7,16 @@ While underway, he *learns* from his SBCI that the peanut butter he wanted to bu
 Immediately, he reroutes to an alternative store after *reasoning* together with his integrated GPS agent,
 city-provided grocery stores Knowledge Graph, and his personal memory-based grocery list Knowledge Graph.
 This reasononing relies upon semantically aligned concepts across these Knowledge Graphs.
-He does all of this without having to use his sensory or motor functions.
+He does all of this without having to use devices that rely on his sensory or motor functions.
 Instead, he interacts and reasons on local and remote data via his brain, thanks to his SBCI.
+
+Hereafter, we present a research vision that highly depends on advancements in cognitive neuroscience and Brain-Computer Interfaces (BCIs), which are rapidly progressing in recent years.
+While parts of this vision rely on what BCI technology already offers today,
+other parts are more speculative and assume future BCI advancements.
+Concretely, we start by motivating [the need for this augmented cognition](#coevolving),
+and explain its [historical framing](#related-work).
+Next, we discuss what [current and future scientific challenges are](#challenges),
+and the [potential impact](#conclusions) of achieving this vision.
 
 <!--* Start intro with: the year is 2050...
 * gps in brain; you hear that store you are on your way to is closed, and want to reroute to somewhere else that sells your grocerie list. All of this you now know, no need to whip out phone.
