@@ -1,4 +1,4 @@
-## Scientific challenges
+## Scientific challenges of augmenting human intelligence
 {:#challenges}
 
 The Semantic Web vision has successfully enabled making knowledge interoperable among machines, which can aid human objectives.

@@ -1,4 +1,4 @@
-## Related Work
+## Historical framing of augmenting human intelligence
 {:#related work}
 
 After the second world war concluded,
