@@ -95,7 +95,8 @@ Once these barriers are resolved, we could have BCIs that are able to encode and
 To make this brain knowledge interoperable with external knowledge,
 SBCIs will need to be able to encode and decode brain knowledge to and from RDF.
 Since memories are not stored in a single place,
-but [emerge from *semantic knowledge* that combines multimodal experiences](cite:cites semanticknowledge) (e.g. visual features, taste, smell, ...) that are personal,
+but [emerge from *semantic knowledge* that combines multimodal experiences](cite:cites semanticknowledge) (e.g. visual features, taste, smell, ...) that are personal.
+To make sure that brain knowledge from different people can actually obtain the same identifiers,
 different mappings may be needed to translate to and from RDF for different people.
 As such, this may lead to the creation of a *Brain to RDF Mapping Language* (B2RML).
 Concretely, the research question that must be tackled here is: ***"How can biological semantic memory be mapped to and from symbolic knowledge?"***
@@ -112,7 +113,7 @@ we may need a way to exchange reasoning contexts, such as a reasoning or proof l
 While languages such as [N3](cite:cites spec:n3) and [SHACL Rules](cite:cites spec:shacl-rules)
 may offer a starting point,
 it is unclear if human reasoning is sufficiently compatible with these languages.
-Concretely, the research question that must be tackled here is: ***"How can biological reasoning be mapped to and from symbolic reasoning?"***
+Concretely, the research question that must be tackled here is: ***"How can biological reasoning be mapped to and from symbolic and subsymbolic reasoning?"***
 Solving this question will enable human reasoning capabilities to be increased using external (symbolic) reasoners.
 
 Since human memories and thoughts are highly personal,
