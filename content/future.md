@@ -6,7 +6,7 @@ while being continuously informed on the best route through his *Semantic Brain-
 While underway, he *learns* from his SBCI that the peanut butter he wanted to buy was just sold out.
 Immediately, he reroutes to an alternative store after *reasoning* together with his integrated GPS agent,
 city-provided grocery stores Knowledge Graph, and his personal memory-based grocery list Knowledge Graph.
-This reasononing relies upon semantically aligned concepts across these Knowledge Graphs.
+This reasoning relies upon semantically aligned concepts across these Knowledge Graphs.
 He does all of this without having to use devices that rely on his sensory or motor functions.
 Instead, he interacts and reasons on local and remote data via his brain, thanks to his SBCI.
 

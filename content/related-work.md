@@ -21,7 +21,7 @@ He argued that the interface between humans and machines should become as seamle
 [Engelbart took this vision a step further](cite:cites engelbart2023augmenting),
 by arguing that we should not just focus on making computers more intelligent,
 but that humans should become better at understanding and solving complex problems.
-by directy *augmenting human cognition*.
+by directly *augmenting human cognition*.
 He claimed that human cognition emerges from a system he calls *H-LAM/T*,
 which consists of *"Humans using Language, Artifacts, Methodology, in which he is Trained"*.
 To increase the cooperation bandwidth between humans and machines,

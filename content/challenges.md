@@ -15,7 +15,8 @@ Furthermore, this provides the basis for human cogniton to make use of symbolic 
 <figure id="symbiotic-kg">
 <img src="img/symbiotic-kg.svg" alt="A Symbiotic Knowledge Graph">
 <figcaption markdown="block">
-A *Symbiotic Knowledge Graph* (SKG) is the integration of a *Brain-based Knowledge Graph* (BKG) with external Knowledge Graphs.
+A *Symbiotic Knowledge Graph* (SKG) is the integration of a *Brain-based Knowledge Graph* (BKG) with external Knowledge Graphs,
+such as a [Personal Knowledge Graph](cite:cites personalkgs), which contains information *associated* with a person.
 For this, the hypothetical *Semantic Brain-Computer Interface* (SBCI) provides the connection point between the two worlds.
 This enables information to be virtually interlinked across this neural-digital boundary,
 as a foundation for co-evolving human and artificial intelligence.
@@ -28,7 +29,7 @@ While conventional **Human-Computer Interfaces** (HCIs) (e.g. touch screens, aug
 they still require indirectly interfacing through a sensory and motor functions (e.g. eyes, hands, ...).
 In contrast, **Brain-Computer Interfaces** (BCIs) (e.g. Neuralink) are more invasive and directly stimulate the brain through electrical or magnetic currents.
 While Knowledge-Graph-based HCIs are already commonplace within our society (e.g. Google Lens, IKEA Place, Microsoft HoloLens),
-the integration of Knowledge Graphs are BCIs remain unexplored.
+the integration of Knowledge Graphs and BCIs remain unexplored.
 As BCIs bypass conventional sensory and motor pathways, they may ultimately enable tighter and higher bandwidth integration between humans and computational systems than is possible with HCIs.
 
 Hereafter, we provide a high-level roadmap that spans several research fields to achieve this vision.
@@ -49,7 +50,7 @@ The current state of the art of cognitive neuroscience and BCIs are capable of e
 such as [converting sound into electrical stimulation of auditory nerve](cite:cites cochlearimplants),
 [attempted handwriting movements and converting them to text](cite:cites braintotext),
 [reconstructing visual images from measured brain activity](cite:cites imagereconstruction),
-or even [directly enabling vision](cite:cites blindsight).
+or even [early prototypes for directly enabling vision](cite:cites blindsight).
 However, arbitrary memories or thoughts can not yet be encoded or decoded,
 but [semantic features of stimuli (e.g. story telling) can be measured](cite:cites semanticmaps),
 such as knowing whether or not something induces fear, or is related to food.
@@ -67,7 +68,7 @@ To enable low-level data integration, we can build upon the [Semantic Sensor Net
 So far, no work has yet been done towards using this ontology to model human senses and actuators.
 As such, we formulate the research question: ***"How can human senses and actuators be semantically modeled?"***
 Solving this question will enable humans to directly produce RDF data to drive other processes,
-for example to automatically adjust mechanical operations based on human actions in manufactoring environments.
+for example to automatically adjust mechanical operations based on human actions in manufacturing environments.
 
 To enable human-focused interaction,
 we can incorporate semantic processes (e.g. faceted search, query execution, ...) into BCIs.
