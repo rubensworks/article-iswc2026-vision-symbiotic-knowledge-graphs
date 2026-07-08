@@ -19,3 +19,7 @@ Long-term, such a deep integration of human-external knowledge can significantly
 - **Societal collaboration** among humans can happen more efficiently, through semantically aligned thoughts, memories, and intents.
 - **Education** is transformed, as new knowledge can directly be accessed rather than memorized.
 - **Researchers** can grasp and solve more complex problems thanks to increased reasoning capabilities.
+
+## Use of Generative AI
+
+No text was written using Generative AI, but figures were improved using ChatGPT.
