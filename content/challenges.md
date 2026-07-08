@@ -115,7 +115,9 @@ While symbolic and subsymbolic AI enables reasoning on digital knowledge,
 the availability of brain knowledge could enable AI to also reason over brain knowledge.
 In reverse, we may also see human reasoning over external knowledge.
 In order to combine the two, where humans and machines can jointly reason over knowledge,
-we may need a way to exchange reasoning contexts, such as a reasoning or proof language.
+we may need a way to exchange reasoning contexts,
+such as [LLM context windows](cite:cites attentionisallyouneed)
+or symbolic reasoning and proof languages.
 While languages such as [N3](cite:cites spec:n3) and [SHACL Rules](cite:cites spec:shacl-rules)
 may offer a starting point,
 it is unclear if human reasoning is sufficiently compatible with these languages.
