@@ -19,7 +19,8 @@ which can be considered a necessity due to biological evolution being much slowe
 <figure id="evolution-intelligence">
 <img src="img/evolution-intelligence.svg" alt="Intelligence Evolution">
 <figcaption markdown="block">
-A simplified illustration of the evolution of Human Intelligence (HI) and Artificial Intelligence (AI) over time,
-together with two possible future directions where HI declines while AI continues to advance (Future 1), or HI and AI co-evolve (Future 2).
+Evolution of Human Intelligence (HI) and Artificial Intelligence (AI) over time,
+with two possible futures where HI declines while AI continues to advance (Future 1), or HI and AI co-evolve (Future 2).
+Axes are illustrative and non-empirical.
 </figcaption>
 </figure>
