@@ -74,7 +74,7 @@ or entity linking between concepts and human sentiments.
 To enable low-level data integration, we can build upon the [Semantic Sensor Network Ontology (SSN)](cite:cites spec:ssn) that is designed for sensors, actuators, and the data they produce.
 While work has been done on [semantics-based personal health monitoring using wearables](cite:cites citizensensing),
 no work has yet been done towards using SSN to directly model and capture the human senses and actuators.
-As such, we formulate the research question: ***"How can human senses and actuators be semantically modeled?"***
+As such, we formulate the research question: ***RQ1: "How can human senses and actuators be semantically modeled?"***
 Solving this question will enable humans to directly produce RDF data to drive other processes,
 for example to automatically adjust mechanical operations based on human actions in manufacturing environments.
 
@@ -83,7 +83,7 @@ we can incorporate semantic processes (e.g. faceted search, query execution, ...
 While current [BCIs already enable humans to control cursors on a screen by imagining hand movements](cite:cites braincursor),
 for example for [generic Web browsing](cite:cites brainsurfing),
 no work has been done yet for exploiting the semantics of hyperlinks and RDF predicates to increase navigation efficiency within Web sites or Knowledge Graphs.
-For this, we formulate the research question: ***"How can link semantics aid humans in navigating data graphs using BCIs?"***
+For this, we formulate the research question: ***RQ2: "How can link semantics aid humans in navigating data graphs using BCIs?"***
 
 ### Future challenges for SBCIs
 
@@ -108,7 +108,7 @@ but they [emerge from *semantic knowledge* that combine personal multimodal expe
 To make sure that brain knowledge from different people can actually obtain the same identifiers,
 different mappings may be needed to translate to and from RDF for different people.
 As such, this may lead to the creation of a *Brain to RDF Mapping Language* (B2RML).
-Concretely, the research question that must be tackled here is: ***"How can biological semantic memory be mapped to and from symbolic knowledge?"***
+Concretely, the research question that must be tackled here is: ***RQ3: "How can biological semantic memory be mapped to and from symbolic knowledge?"***
 If we can solve this question,
 we can advance from looking up information within Knowledge Graphs,
 to actually *know* information stored in Knowledge Graphs.
@@ -124,7 +124,7 @@ or symbolic reasoning and proof languages.
 While languages such as [N3](cite:cites spec:n3) and [SHACL Rules](cite:cites spec:shacl-rules)
 may offer a starting point,
 it is unclear if human reasoning is sufficiently compatible with these languages.
-Concretely, the research question that must be tackled here is: ***"How can biological reasoning be mapped to and from symbolic and subsymbolic reasoning?"***
+Concretely, the research question that must be tackled here is: ***RQ4: "How can biological reasoning be mapped to and from symbolic and subsymbolic reasoning?"***
 Solving this question will enable human reasoning capabilities to be increased using external (symbolic) reasoners.
 
 Since human memories and thoughts are highly personal,
@@ -134,5 +134,5 @@ since SKGs contain highly personal data.
 As privacy concerns around brain data are arguably greater than externally stored data about people,
 SBCIs should make privacy concerns a high priority.
 As such, SBCIs should have strong access control and consent mechanisms.
-Related to this, we define a final research question: ***"How can we model ownership and access control for biological memories?"***.
+Related to this, we define a final research question: ***RQ5: "How can we model ownership and access control for biological memories?"***.
 Solving this question is a critical requirement before we can ethically deploy SBCIs in the real world.
