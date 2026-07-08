@@ -1,7 +1,7 @@
 ## Abstract
 <!-- Context      -->
 A primary goal of the Semantic Web was to enable autonomous agents to take up tasks on behalf of humans.
-Now, 25 years after this initial vision, this goal could be considered largely accomplished.
+Now, 25 years after this initial vision, this goal could be considered partially realized.
 While these agents can be personal, and associated to specific humans,
 they are not directly integrated within *human cognition*.
 In other words, these intelligent agents are external to the human body and brain,
