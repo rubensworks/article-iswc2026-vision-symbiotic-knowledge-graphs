@@ -64,8 +64,9 @@ For this, existing techniques such as using visual stimuli and recorded handmove
 for tasks such as Knowledge Graph exploration through faceted search [using personal query engines](cite:cites clientcentricqueryengines),
 or entity linking between concepts and human sentiments.
 
-To enable low-level data integration, we can build upon the [Semantic Sensor Network Ontology](cite:cites spec:ssn) that is designed for sensors, actuators, and the data they produce.
-So far, no work has yet been done towards using this ontology to model human senses and actuators.
+To enable low-level data integration, we can build upon the [Semantic Sensor Network Ontology (SSN)](cite:cites spec:ssn) that is designed for sensors, actuators, and the data they produce.
+While work has been done on [semantics-based personal health monitoring using wearables](cite:cites citizensensing),
+no work has yet been done towards using SSN to directly model and capture the human senses and actuators.
 As such, we formulate the research question: ***"How can human senses and actuators be semantically modeled?"***
 Solving this question will enable humans to directly produce RDF data to drive other processes,
 for example to automatically adjust mechanical operations based on human actions in manufacturing environments.
@@ -73,8 +74,8 @@ for example to automatically adjust mechanical operations based on human actions
 To enable human-focused interaction,
 we can incorporate semantic processes (e.g. faceted search, query execution, ...) into BCIs.
 While current [BCIs already enable humans to control cursors on a screen by imagining hand movements](cite:cites braincursor),
-no work has been done yet towards using BCIs for navigating Web sites or Knowledge Graphs.
-The potential here is that the semantic meaning of hyperlinks and RDF predicates can be leveraged to increase navigation efficiency.
+for example for [generic Web browsing](cite:cites brainsurfing),
+no work has been done yet for exploiting the semantics of hyperlinks and RDF predicates to increase navigation efficiency within Web sites or Knowledge Graphs.
 For this, we formulate the research question: ***"How can link semantics aid humans in navigating data graphs using BCIs?"***
 
 ### Future challenges for SBCIs
