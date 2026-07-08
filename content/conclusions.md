@@ -17,5 +17,5 @@ for which this vision sets out specific goals.
 Long-term, such a deep integration of human-external knowledge can significantly impact our society at different levels, for example:
 
 - **Societal collaboration** among humans can happen more efficiently, through semantically aligned thoughts, memories, and intents.
-- **Education** becomes obsolete or requires reform, as new knowledge can directly be accessed rather than memorized.
+- **Education** is transformed, as new knowledge can directly be accessed rather than memorized.
 - **Researchers** can grasp and solve more complex problems thanks to increased reasoning capabilities.
