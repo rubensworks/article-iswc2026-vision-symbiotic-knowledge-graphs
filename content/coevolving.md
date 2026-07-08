@@ -1,12 +1,14 @@
 ## Need to co-evolve human and artificial intelligence
 {:#coevoling}
 
-The [human brain has been increasing in size for thousands of years](cite:cites humanbrainevolution), which is [associated with increasing intelligence](cite:cites brainsizeintelligence).
-Since just a few decades ago, we started creating artificial forms of intelligence (AI),
+Since just a few decades ago, we started creating Artificial forms of Intelligence (AI),
 [which are rapidly advancing](cite:cites aiintelligence).
 Some argue that this AI [may soon match or exceed Human Intelligence (HI)](cite:cites aigeneralintelligence).
-At the same time, [the Reverse Flynn effect](cite:cites reverseflynn) shows dropping human IQ test scores in recent years,
-which some argue indicates a decline in HI.
+At the same time, humans increasingly offload cognitive tasks to external techical systems,
+such as calculators, search engines, and AI chatbots,
+which leads to automation-induced skill degradation, also known as [the *Google effect*](cite:cites googleeffect).
+While there is an ongoing debate [whether or not human intelligence itself is declining](cite:cites reverseflynn),
+the relative gap between individual human capability and increasingly capable AI is widening.
 If these two trends continue, we may be evolving towards a future where AI surpasses HI (Future 1),
 which leads to an uncertain future of humanity.
 In this paper, we argue for the need of a course correction (Future 2),
