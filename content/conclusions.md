@@ -12,7 +12,8 @@ While work towards resulting Symbiotic Knowledge Graphs is not only interesting 
 it may also be considered important for humanity from an existential perspective.
 
 While part of our vision could already be achieved by current BCI technology,
-other parts still require future BCI breakthroughs.
+other parts still require future BCI breakthroughs,
+for which this vision sets out specific goals.
 Long-term, such a deep integration of human-external knowledge can significantly impact our society at different levels, for example:
 
 - **Societal collaboration** among humans can happen more efficiently, through semantically aligned thoughts, memories, and intents.
