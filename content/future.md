@@ -10,7 +10,7 @@ This reasoning relies upon semantically aligned concepts across these Knowledge 
 He does all of this without having to use devices that rely on his sensory or motor functions.
 Instead, he interacts and reasons on local and remote data via his brain, thanks to his SBCI.
 
-Hereafter, we present a research vision that highly depends on advancements in cognitive neuroscience and Brain-Computer Interfaces (BCIs), which are rapidly progressing in recent years.
+Hereafter, we present a research vision that depends on advancements in cognitive neuroscience and Brain-Computer Interfaces (BCIs), which are rapidly progressing in recent years.
 While parts of this vision rely on what BCI technology already offers today,
 other parts are more speculative and assume future BCI advancements.
 Concretely, we start by motivating [the need for this augmented cognition](#coevolving),

@@ -17,7 +17,8 @@ we already have a foundation to make machines understand data,
 which are often captured in the form of Knowledge Graphs.
 <!-- Object       -->
 In this paper, we argue that this stack
-offer a basis to also make knowledge interoperable *across humans* and to *augment human intelligence* through *Semantic Brain-Computer Interfaces*.
+offer a basis to also make knowledge interoperable *across humans*
+and can augment human intelligence through *Semantic Brain-Computer Interfaces*.
 We present an interdisciplinary research roadmap for achieving this vision,
 which spans Augmented Cognition, Cognitive Neuroscience, Brain-Computer Interfaces, and Neuro-symbolic AI.
 <!-- Findings     -->
