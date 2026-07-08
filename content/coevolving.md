@@ -13,8 +13,8 @@ If these two trends continue, we may be evolving towards a future where AI surpa
 which leads to an uncertain future of humanity.
 In this paper, we argue for the need of a course correction (Future 2),
 where HI co-evolves with AI,
-which can be considered a necessity due to biological evolution being much slower compared to our technological advancement.
-[](#evolution-intelligence) shows an illustration of this HI-AI co-evolution.
+which can be considered a necessity due to biological evolution being much slower compared to our technological advancement,
+as shown in [](#evolution-intelligence).
 
 <figure id="evolution-intelligence">
 <img src="img/evolution-intelligence.svg" alt="Intelligence Evolution">

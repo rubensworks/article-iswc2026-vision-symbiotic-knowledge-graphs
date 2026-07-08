@@ -16,7 +16,7 @@ Thanks to the Semantic Web technology stack,
 we already have a foundation to make machines understand data,
 which are often captured in the form of Knowledge Graphs.
 <!-- Object       -->
-In this paper, we argue that parts of this technology stack
+In this paper, we argue that this stack
 offer a basis to also make knowledge interoperable *across humans* and to *augment human intelligence* through *Semantic Brain-Computer Interfaces*.
 We present an interdisciplinary research roadmap for achieving this vision,
 which spans Augmented Cognition, Cognitive Neuroscience, Brain-Computer Interfaces, and Neuro-symbolic AI.
@@ -26,7 +26,7 @@ This will enable the existence of *Symbiotic Knowledge Graphs*,
 which consist of the integration of human knowledge stored in the brain,
 and external knowledge stored on the Web.
 <!-- Perspectives -->
-With this paper,
+Concretely,
 we propose a research vision
 where artificial intelligence and human intelligence can co-evolve in a symbiotic manner,
 without one replacing the other.

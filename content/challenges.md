@@ -1,28 +1,29 @@
 ## Scientific challenges of augmenting human intelligence
 {:#challenges}
 
+<figure id="symbiotic-kg">
+<img src="img/symbiotic-kg.svg" alt="A Symbiotic Knowledge Graph">
+<figcaption markdown="block">
+A *Symbiotic Knowledge Graph* (SKG) is the integration of a *Brain-based Knowledge Graph* (BKG) with external Knowledge Graphs.
+For this, a hypothetical *Semantic Brain-Computer Interface* (SBCI) provides the connection point between the two worlds.
+This enables information to be virtually interlinked across this neural-digital boundary,
+as a foundation for co-evolving human and artificial intelligence.
+</figcaption>
+</figure>
+
 The Semantic Web vision has successfully enabled knowledge interoperability among machines, which can aid human objectives.
 A next big challenge is to make such *semantic knowledge interoperable with human cognition* itself, to directly augment human intelligence.
 To augment human intelligence, we propose working towards an integration of human and artificial intelligence.
 As shown in [](#symbiotic-kg), we foresee the creation of *Symbiotic Knowledge Graphs* (SKGs),
 which consist of the integration of human knowledge stored in the brain, and external knowledge stored on the Web.
+This is similar, yet different to the concept of a [Personal Knowledge Graph](cite:cites personalkgs),
+which contains information *associated* with a person.
 To achieve this, the Semantic Web stack already offers important building blocks,
 such as RDF to represent formal knowledge, and SPARQL to retrieve knowledge.
 Concretely, *global identifiers* (IRIs) and *shared ontologies* provide mechanisms for a person's internal concepts to be aligned to another person's concepts,
 and to those within an external KG.
 Next, *SPARQL federation* enables query-driven integration of knowledge that is spread across humans and machines.
 Furthermore, *standardized reasoning and proof languages* provide the basis for shared reasoning across humans and machines.
-
-<figure id="symbiotic-kg">
-<img src="img/symbiotic-kg.svg" alt="A Symbiotic Knowledge Graph">
-<figcaption markdown="block">
-A *Symbiotic Knowledge Graph* (SKG) is the integration of a *Brain-based Knowledge Graph* (BKG) with external Knowledge Graphs,
-such as a [Personal Knowledge Graph](cite:cites personalkgs), which contains information *associated* with a person.
-For this, the hypothetical *Semantic Brain-Computer Interface* (SBCI) provides the connection point between the two worlds.
-This enables information to be virtually interlinked across this neural-digital boundary,
-as a foundation for co-evolving human and artificial intelligence.
-</figcaption>
-</figure>
 
 This vision can be positioned within the research field of [Human Cognitive Augmentation](cite:cites neurotechnologieshumancogaug),
 which focuses on using technology to enhance human mental capabilities (e.g. memory, focus, and decision-making).

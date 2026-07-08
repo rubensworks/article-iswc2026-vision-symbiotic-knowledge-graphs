@@ -4,10 +4,10 @@
 After the second world war concluded,
 scientists such as [Bush argued that producing scientific knowledge was no longer the primary bottleneck](cite:cites bush1945we).
 Instead, the ability to navigate within this rapidly growing body of knowledge would become the new bottleneck.
-He proposed the *Memex*,
-a conceptual device that would enable books and other forms of data to be stored,
+He proposed the *Memex*
+as a device to store books and other forms of data,
 and links to be placed between pieces of information.
-While this device was never actually built,
+While Memex was merely conceptual,
 it provided the foundations for hypertext and the [World Wide Web](cite:cites berners1989information).
 
 In the 1960's, computers were not only shrinking in size, but they were also becoming more powerful.
@@ -22,13 +22,12 @@ He argued that the interface between humans and machines should become as seamle
 by arguing that we should not just focus on making computers more intelligent,
 but that humans should become better at understanding and solving complex problems
 by directly *augmenting human cognition*.
-He claimed that human cognition emerges from a system he calls *H-LAM/T*,
-which consists of *"Humans using Language, Artifacts, Methodology, in which he is Trained"*.
-To increase the cooperation bandwidth between humans and machines,
+<!--He claimed that human cognition emerges from a system he calls *H-LAM/T* (*"Humans using Language, Artifacts, Methodology, in which he is Trained"*).-->
+To increase the cooperation between humans and machines,
 Engelbart contributed to the introduction of the computer mouse, windowed interfaces, collaborative editing, and more.
 
 Building upon these ideas, the [Semantic Web](cite:cites semanticweb) vision was introduced
-as a machine-understandable layer on top of the World Wide Web
+as a machine-understandable layer on top of the Web
 in which intelligent agents could act on behalf of humans.
 However, within this vision, intelligence is considered something external,
 which places us in a trajectory where artificial intelligence may exceed human intelligence.
