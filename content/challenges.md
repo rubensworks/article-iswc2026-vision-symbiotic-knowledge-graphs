@@ -34,7 +34,9 @@ or by stimulating neural tissue to write sensory information.
 BCIs can be invasive (e.g. intracortical electrode arrays), or non-invasive (e.g. EEG).
 While Knowledge-Graph-based HCIs are already commonplace within our society (e.g. Google Lens, IKEA Place, Microsoft HoloLens),
 the integration of Knowledge Graphs and BCIs remain unexplored.
-As BCIs bypass conventional sensory and motor pathways, they may ultimately enable tighter and higher bandwidth integration between humans and computational systems than is possible with HCIs.
+Despite [current BCI bandwidth being very limited](cite:cites bcis,noninvacivebcireview),
+they may ultimately enable tighter and higher bandwidth integration between humans and computational systems than is possible with HCIs,
+as BCIs bypass conventional sensory and motor pathways.
 
 Hereafter, we provide a high-level roadmap that spans several research fields to achieve this vision.
 Concretely, we first discuss which opportunities already exist within current BCI technology to create *Semantic Brain-Computer Interfaces* (SBCIs).
