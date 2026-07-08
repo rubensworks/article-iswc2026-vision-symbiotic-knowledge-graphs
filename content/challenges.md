@@ -60,8 +60,8 @@ this means that immediate opportunities exist involving human senses and actuato
 This includes making external knowledge directly visible or audible to humans through electrical stimulation,
 or movement-based exploration and manipulation of external knowledge.
 Furthermore, there are opportunities for automatic human-specific sentiment extraction of external events.
-For this, existing techniques from the field of HCIs can be reused,
-such as using visual stimuli and recorded handmovements to explore Knowledge Graphs through faceted search,
+For this, existing techniques such as using visual stimuli and recorded handmovements from the field of HCIs can be reused,
+for tasks such as Knowledge Graph exploration through faceted search [using personal query engines](cite:cites clientcentricqueryengines),
 or entity linking between concepts and human sentiments.
 
 To enable low-level data integration, we can build upon the [Semantic Sensor Network Ontology](cite:cites spec:ssn) that is designed for sensors, actuators, and the data they produce.
