@@ -27,7 +27,10 @@ This vision can be positioned within the research field of [Human Cognitive Augm
 which focuses on using technology to enhance human mental capabilities (e.g. memory, focus, and decision-making).
 While conventional **Human-Computer Interfaces** (HCIs) (e.g. touch screens, augmented reality devices) could be used that provide actionable information when needed,
 they still require indirectly interfacing through a sensory and motor functions (e.g. eyes, hands, ...).
-In contrast, **Brain-Computer Interfaces** (BCIs) (e.g. Neuralink) are more invasive and directly stimulate the brain through electrical or magnetic currents.
+In contrast, **Brain-Computer Interfaces** (BCIs) interface with neural tissue directly,
+for example by capturing neural activity (e.g. Neuralink),
+or by stimulating neural tissue to write sensory information.
+BCIs can be invasive (e.g. intracortical electrode arrays), or non-invasive (e.g. EEG).
 While Knowledge-Graph-based HCIs are already commonplace within our society (e.g. Google Lens, IKEA Place, Microsoft HoloLens),
 the integration of Knowledge Graphs and BCIs remain unexplored.
 As BCIs bypass conventional sensory and motor pathways, they may ultimately enable tighter and higher bandwidth integration between humans and computational systems than is possible with HCIs.
@@ -50,7 +53,7 @@ The current state of the art of cognitive neuroscience and BCIs are capable of e
 such as [converting sound into electrical stimulation of auditory nerve](cite:cites cochlearimplants),
 [attempted handwriting movements and converting them to text](cite:cites braintotext),
 [reconstructing visual images from measured brain activity](cite:cites imagereconstruction),
-or even [early prototypes for directly enabling vision](cite:cites blindsight).
+or even [proposed approaches for directly enabling vision](cite:cites corticalvisualprosthetics).
 However, arbitrary memories or thoughts can not yet be encoded or decoded,
 but [semantic features of stimuli (e.g. story telling) can be measured](cite:cites semanticmaps),
 such as knowing whether or not something induces fear, or is related to food.
@@ -89,7 +92,7 @@ and assumes specific breakthroughs in cognitive neuroscience and BCI technology
 for the further advancement of SBCIs.
 
 Currently, [the neural encoding of abstract concepts and complex knowledge relations is not well understood yet](cite:cites neurotechnologieshumancogaug).
-Furthermore, [prosthesis techniques exist](cite:cites corticalprosthesis) for restoring or enhancing memory,
+Furthermore, [prosthesis techniques exist](cite:cites hippocampalneuralprosthetic) for restoring or enhancing memory,
 but externally stored memories can not yet be integrated into human cognition.
 Additionally, current BCIs only have a [very limited information bandwidth](cite:cites bcis,noninvacivebcireview),
 which would be necessary for exchanging complex structures such as large chunks of knowledge.
