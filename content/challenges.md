@@ -46,7 +46,7 @@ Next, we discuss which future advancements would be needed in BCI technology to 
 
 [Human cognition is defined as the mental framework that is responsible for acquiring, storing, transforming, and using information](cite:cites cognitivepsychology).
 Within [cognitive architectures](cite:cites actr,soar), this stored information is considered the foundation for intelligence.
-As such, the ability to integrate external knowledge into human cognition forms is an important basis for augmenting human intelligence.
+As such, the ability to integrate external knowledge into human cognition forms an important basis for augmenting human intelligence.
 To enable this integration, there is a need for the creation of *Semantic Brain-Computer Interfaces* (SBCIs),
 which are interfaces that can encode and decode human knowledge,
 so it can be interlinked and interact with formal knowledge (e.g. RDF).
