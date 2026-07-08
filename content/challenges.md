@@ -8,9 +8,10 @@ As shown in [](#symbiotic-kg), we foresee the creation of *Symbiotic Knowledge G
 which consist of the integration of human knowledge stored in the brain, and external knowledge stored on the Web.
 To achieve this, the Semantic Web stack already offers important building blocks,
 such as RDF to represent formal knowledge, and SPARQL to retrieve knowledge.
-On the one hand, this allows humans to directly access external knowledge.
-And on the other hand, this enables external processes or other humans to access knowledge of other humans.
-Furthermore, this provides the basis for human cogniton to make use of symbolic reasoning over this integration.
+Concretely, *global identifiers* (IRIs) and *shared ontologies* provide mechanisms for a person's internal concepts to be aligned to another person's concepts,
+and to those within an external KG.
+Next, *SPARQL federation* enables query-driven integration of knowledge that is spread across humans and machines.
+Furthermore, *standardized reasoning and proof languages* provide the basis for shared reasoning across humans and machines.
 
 <figure id="symbiotic-kg">
 <img src="img/symbiotic-kg.svg" alt="A Symbiotic Knowledge Graph">
