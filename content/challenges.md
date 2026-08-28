@@ -12,8 +12,8 @@ as a foundation for co-evolving human and artificial intelligence.
 </figure>
 
 The Semantic Web vision has successfully enabled knowledge interoperability among machines, which can aid human objectives.
-A next big challenge is to make such *semantic knowledge interoperable with human cognition* itself, to directly augment human intelligence.
-To augment human intelligence, we propose working towards an integration of human and artificial intelligence.
+A next big challenge is to make such *semantic knowledge interoperable with human cognition* itself.
+For this, we propose working towards an integration of human and artificial intelligence.
 As shown in [](#symbiotic-kg), we foresee the creation of *Symbiotic Knowledge Graphs* (SKGs),
 which consist of the integration of human knowledge stored in the brain, and external knowledge stored on the Web.
 This is similar, yet different to the concept of a [Personal Knowledge Graph](cite:cites personalkgs),
@@ -39,17 +39,16 @@ Despite [current BCI bandwidth being very limited](cite:cites bcis,noninvacivebc
 they may ultimately enable tighter and higher bandwidth integration between humans and computational systems than is possible with HCIs,
 as BCIs bypass conventional sensory and motor pathways.
 
-Hereafter, we provide a high-level roadmap that spans several research fields to achieve this vision.
-Concretely, we first discuss which opportunities already exist within current BCI technology to create *Semantic Brain-Computer Interfaces* (SBCIs).
-Next, we discuss which future advancements would be needed in BCI technology to fully realize the potential of SBCIs.
+Hereafter, we provide a high-level roadmap spanning several research fields.
+We first discuss which opportunities already exist within current BCI technology to create *Semantic Brain-Computer Interfaces* (SBCIs),
+and next which future advancements are needed to fully realize their potential.
 
 ### Current challenges and opportunities for SBCIs
 
 [Human cognition is defined as the mental framework that is responsible for acquiring, storing, transforming, and using information](cite:cites cognitivepsychology).
 Within [cognitive architectures](cite:cites actr,soar), this stored information is considered the foundation for intelligence.
-As such, the ability to integrate external knowledge into human cognition forms an important basis for augmenting human intelligence.
-To enable this integration, there is a need for the creation of *Semantic Brain-Computer Interfaces* (SBCIs),
-which are interfaces that can encode and decode human knowledge,
+As such, integrating external knowledge into human cognition forms an important basis for augmenting human intelligence.
+This requires SBCIs that can encode and decode human knowledge,
 so it can be interlinked and interact with formal knowledge (e.g. RDF).
 
 The field of cognitive neuroscience studies how cognitive processes such as memory are implemented in the brain.
@@ -76,7 +75,7 @@ While work has been done on [semantics-based personal health monitoring using we
 no work has yet been done towards using SSN to directly model and capture the human senses and actuators.
 As such, we formulate the research question: ***RQ1: "How can human senses and actuators be semantically modeled?"***
 Solving this question will enable humans to directly produce RDF data to drive other processes,
-for example to automatically adjust mechanical operations based on human actions in manufacturing environments.
+such as adjusting mechanical operations based on human actions.
 
 To enable human-focused interaction,
 we can incorporate semantic processes (e.g. faceted search, query execution, ...) into BCIs.
@@ -87,13 +86,12 @@ For this, we formulate the research question: ***RQ2: "How can link semantics ai
 
 ### Future challenges for SBCIs
 
-The SBCI described above relies on what BCI technology can already achieve today.
-In order to interlink complete memories and thoughts,
-or to make external knowledge available as external memory,
-more work is needed in the fields of cognitive neuroscience and BCIs.
-As such, this section is speculative in nature,
-and assumes specific breakthroughs in cognitive neuroscience and BCI technology
-for the further advancement of SBCIs.
+The SBCI above relies on what BCI technology can already achieve today.
+Interlinking complete memories and thoughts,
+or making external knowledge available as memory,
+requires more work in cognitive neuroscience and BCIs.
+This section is therefore speculative,
+and assumes specific breakthroughs in these fields.
 
 Currently, [the neural encoding of abstract concepts and complex knowledge relations is not well understood yet](cite:cites neurotechnologieshumancogaug).
 Furthermore, [prosthesis techniques exist](cite:cites hippocampalneuralprosthetic) for restoring or enhancing memory,
@@ -117,7 +115,7 @@ Next to exchanging pure memories, there is also the potential to exchange *thoug
 While symbolic and subsymbolic AI enables reasoning on digital knowledge,
 the availability of brain knowledge could enable AI to also reason over brain knowledge.
 In reverse, we may also see human reasoning over external knowledge.
-In order to combine the two, where humans and machines can jointly reason over knowledge,
+To combine the two, where humans and machines jointly reason over knowledge,
 we may need a way to exchange reasoning contexts,
 such as [LLM context windows](cite:cites attentionisallyouneed)
 or symbolic reasoning and proof languages.
@@ -128,11 +126,9 @@ Concretely, the research question that must be tackled here is: ***RQ4: "How can
 Solving this question will enable human reasoning capabilities to be increased using external (symbolic) reasoners.
 
 Since human memories and thoughts are highly personal,
-there are some great ethical concerns involved in these matters.
+great ethical concerns are involved.
 Privacy-concerning legislature such as GDPR would apply to SKGs,
-since SKGs contain highly personal data.
-As privacy concerns around brain data are arguably greater than externally stored data about people,
-SBCIs should make privacy concerns a high priority.
+and privacy concerns around brain data are arguably greater than around externally stored data about people.
 As such, SBCIs should have strong access control and consent mechanisms.
 Related to this, we define a final research question: ***RQ5: "How can we model ownership and access control for biological memories?"***.
 Solving this question is a critical requirement before we can ethically deploy SBCIs in the real world.
