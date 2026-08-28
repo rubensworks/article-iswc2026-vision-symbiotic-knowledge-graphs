@@ -119,7 +119,7 @@ To combine the two, where humans and machines jointly reason over knowledge,
 we may need a way to exchange reasoning contexts,
 such as [LLM context windows](cite:cites attentionisallyouneed)
 or symbolic reasoning and proof languages.
-While languages such as [N3](cite:cites spec:n3) and [SHACL Rules](cite:cites spec:shacl-rules)
+While languages such as [N3](cite:cites spec:n3) and [SPARQL RL](cite:cites spec:sparql-rules)
 may offer a starting point,
 it is unclear if human reasoning is sufficiently compatible with these languages.
 Concretely, the research question that must be tackled here is: ***RQ4: "How can biological reasoning be mapped to and from symbolic and subsymbolic reasoning?"***
